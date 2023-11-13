@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/](https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/).
 
 ### `Description`
-**Several Actions includes in this Quiz**
+### `Several Actions includes in this Quiz`
 **1. Check:** Allows to check the answer when we click the button "Check",
 
 ### `Type Of Questions which includes in this Quiz`
