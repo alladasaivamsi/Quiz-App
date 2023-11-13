@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `Git Repository Link`
 
-Open [https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git]([http://localhost:3000](https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git)).
+[https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git](http://localhost:3000](https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git).
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
