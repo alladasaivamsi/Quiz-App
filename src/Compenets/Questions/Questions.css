@@ -1,0 +1,471 @@
+.questions-container {
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  width: 100%;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flagBtn,
+.flagListBtn {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.flagBtn:hover {
+  background-color: green;
+}
+
+.flagListBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.checkBtn {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.checkBtn:hover {
+  color: black;
+  background-color: white;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  gap: 2rem;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.quiz-body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  padding-left: 2rem;
+}
+
+.free-choice {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.text-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.text-input label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.text-input input {
+  width: 50%;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.answer-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.option-button {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.multiple-option-button {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+}
+
+.multiple-choice-options {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+
+.answer-section button:hover {
+  box-shadow: 2px 2px 10px black, inset -2px 2px 10px black;
+}
+
+.footer-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2rem;
+  bottom: 2rem;
+}
+
+.rightArrow {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.rightArrow:hover{
+  opacity: 0.6;
+}
+
+.checked {
+  background-color: green;
+}
+
+.right {
+  background-color: green;
+}
+
+.wrong {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  pointer-events: none;
+  cursor: not-allowed;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.red {
+  background-color: red;
+  pointer-events: none;
+  cursor: not-allowed;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:disabled,
+input[disabled] {
+  color: black;
+}
+
+.blank-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+  border-bottom: 5px solid black;
+  outline: none;
+}
+
+.fill-blank-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.fill-blank-input label {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.question-type {
+  color: red;
+}
+
+.pattern {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.pattern-input {
+  width: 4rem;
+  height: 3rem;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+  font-weight: 600;
+  border: 3px solid black;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+
+.score {
+  color: red;
+}
+
+.checkDisabled {
+  display: none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.blank-button {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.value-button {
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: none;
+}
+
+.single-choice-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.chooseRightOption-section {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  padding-left: 2rem;
+}
+
+.dragableItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-size: 1rem;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.draggle-section {
+  width: 80%;
+  height: 100%;
+  padding-left: 2rem;
+}
+
+.draggle-options {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.table-drag-options {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom: 2rem;
+}
+
+.table-drag-options td {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.tableItems {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  font-size: 1rem;
+  box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+th {
+  border: 2px solid black;
+}
+
+td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+#text {
+  text-align: center;
+}
+
+.finishButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.nextButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -2rem;
+  margin-right: 1rem;
+}
