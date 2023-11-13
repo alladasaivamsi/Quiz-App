@@ -2,15 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `Git Repository Link`
+## Git Repository Link
 
 [https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git](https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git).
 
-### `Git Deployment Link`
+## Git Deployment Link
 
 [https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/](https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/).
 
-### `Description`
+## Description
 ### `Several Actions includes in this Quiz`
 **1. Check:** Allows to check the answer when we click the button "Check",
 
