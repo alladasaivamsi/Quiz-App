@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `Type Of Questions which includes in this Quiz`
 **1. Multiple Choice Questions**
-2. Fill In The Blanks
+**2. Fill In The Blanks**
 3. Free Choice / Free Answer
 4. Choose Right Option
 5. Option Sorting
