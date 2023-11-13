@@ -10,9 +10,12 @@
 
 ## Description
 ### `Several Actions includes in this Quiz`
-**1. Check:** Allows to check the answer when you click the button "Check",
-**2. Resume:** You can resume your quiz any time where you left,
-**3. Sound:** Sound comes when you check and answer is `wrong` or `right`. On the `wrong` you will play some negative sound and on the `right` you will play a positive sound.
+**1. Check:** 
+Allows to check the answer when you click the button "Check",
+**2. Resume:** 
+You can resume your quiz any time where you left,
+**3. Sound:** 
+Sound comes when you check and answer is `wrong` or `right`. On the `wrong` you will play some negative sound and on the `right` you will play a positive sound.
 
 ### `Type Of Questions which includes in this Quiz`
 1. Multiple Choice Questions
