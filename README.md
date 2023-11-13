@@ -1,7 +1,5 @@
 # The Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Git Repository Link
 
 [https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git](https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git).
@@ -12,7 +10,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 ### `Several Actions includes in this Quiz`
-**1. Check:** Allows to check the answer when we click the button "Check",
+**1. Check:** Allows to check the answer when you click the button "Check",
+**2. Resume:** You can resume your quiz any time where you left,
+**3. Sound:** Sound comes when you check and answer is `wrong` or `right`. On the `wrong` you will play some negative sound and on the `right` you will play a positive sound.
 
 ### `Type Of Questions which includes in this Quiz`
 1. Multiple Choice Questions
