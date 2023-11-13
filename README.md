@@ -5,10 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `Git Repository Link`
 
 [https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git](https://github.com/alladasaivamsi/Quiz-Nicole-TheMathLady.git).
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Git Deployment Link`
+
+[https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/](https://quiz-nicole-the-math-lady-alladasaivamsi.vercel.app/).
 
 ### `npm run build`
 
